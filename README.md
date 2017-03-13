@@ -62,4 +62,4 @@ $ floyd logs -t <RUN_ID>
 $ floyd output <RUN_ID>
 ```
 An example output:
-[style_transfer](https://www.floydhub.com/viewer/data/fWbbaWgY29aZJtfvDZoSmM/maEBJn9ULHVvCVxhRcKNmM/result_at_iteration_9.pn!g)
+![style_transfer](https://www.floydhub.com/viewer/data/fWbbaWgY29aZJtfvDZoSmM/maEBJn9ULHVvCVxhRcKNmM/result_at_iteration_9.png)
