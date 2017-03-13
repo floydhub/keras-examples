@@ -26,7 +26,8 @@ $ floyd run --env keras --gpu python deep_dream.py sample.jpg /output/
 $ floyd logs -t <RUN_ID>
 $ floyd output <RUN_ID>
 ```
-The output should contain all the deep dream generated images.
+The output should contain all the deep dream generated images. For example:
+![deep_dream](https://dev.floydhub.com/viewer/data/ujRBgsxfGATSftVLKcVdVM/rVLSHv3RheWUQnFKnGJoz7/_at_iteration_4.png)
 
 ### CNN on Cifar10
 
