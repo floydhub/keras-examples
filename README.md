@@ -33,7 +33,19 @@ The output should contain all the deep dream generated images.
 To train a simple deep CNN on the CIFAR10 small images dataset:
 
 ```bash
-$ wget URL/sample.jpg
 $ floyd run --env keras --gpu python cifar10_cnn.py
 $ floyd logs -t <RUN_ID>
 ```
+
+### ACGAN on MNIST
+
+To train an Auxiliary Classifier Generative Adversarial Network (ACGAN) on the
+MNIST dataset:
+
+```bash
+$ floyd run --env keras --gpu python mnist_acgan.py
+$ floyd logs -t <RUN_ID>
+```
+
+There are lots of other example scripts that run on MNIST dataset. They all work
+the same way with Floyd.
