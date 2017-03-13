@@ -48,7 +48,7 @@ $ floyd run --env keras --gpu python mnist_acgan.py
 $ floyd logs -t <RUN_ID>
 ```
 
-There are lots of other example scripts that run on MNIST dataset. They all work
+There are lots of other example scripts that run on MNIST dataset. They can all be run 
 the same way with Floyd.
 
 ### Neural Style Transfer
