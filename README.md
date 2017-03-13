@@ -49,3 +49,17 @@ $ floyd logs -t <RUN_ID>
 
 There are lots of other example scripts that run on MNIST dataset. They all work
 the same way with Floyd.
+
+### Neural Style Transfer
+
+You can transfer the style (artistically) of any image over another base image. For this
+you need a base image and a style image (use famoust paintings like [this](https://github.com/floydhub/fast-style-transfer/blob/master/examples/style/the_scream.jpg)).
+
+```bash
+$ wget URL/style.jpg
+$ floyd run --env keras --gpu python neural_style_transfer.py base.jpg style.jpg /output/result
+$ floyd logs -t <RUN_ID>
+$ floyd output <RUN_ID>
+```
+An example output:
+[style_transfer](https://www.floydhub.com/viewer/data/fWbbaWgY29aZJtfvDZoSmM/maEBJn9ULHVvCVxhRcKNmM/result_at_iteration_9.pn!g)
