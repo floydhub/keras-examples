@@ -64,3 +64,18 @@ $ floyd output <RUN_ID>
 ```
 An example output:
 ![style_transfer](https://www.floydhub.com/viewer/data/fWbbaWgY29aZJtfvDZoSmM/maEBJn9ULHVvCVxhRcKNmM/result_at_iteration_9.png)
+
+### Other examples
+
+Similarly you can run all the other examples easily on Floyd in seconds.
+
+```bash
+# Convolutional LSTM network
+floyd run --env keras --gpu python conv_lstm.py
+
+# Generate text from Nietzsche's writings
+floyd run --env keras --gpu python lstm_text_generation.py
+
+# Simple MLP on the Reuters newswire topic classification task
+floyd run --env keras --gpu python reuters_mlp.py
+```
