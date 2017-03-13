@@ -1,6 +1,6 @@
 ## Running Keras on Floyd
 
-[Floyd](https://www.floydhub.com/) has native support for Keras including Tensorflow or Theano backends. This page lists some of the best example projects for Keras.
+[Floyd](https://www.floydhub.com/) has native support for Keras with Tensorflow or Theano backends. This page lists some of the best example projects for Keras.
 
 ## Keras Official Examples
 
