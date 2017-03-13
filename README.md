@@ -17,6 +17,7 @@ $ floyd init keras-examples
 If you don't have floyd already installed, you can run:
 ```bash
 pip install -U floyd-cli
+floyd login
 ```
 
 ### Deep Dream
