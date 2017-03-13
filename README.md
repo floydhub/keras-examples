@@ -14,6 +14,11 @@ $ cd keras/examples
 $ floyd init keras-examples
 ```
 
+If you don't have floyd already installed, you can run:
+```bash
+pip install -U floyd-cli
+```
+
 ### Deep Dream
 
 To run the `deep_dream.py` example on a GPU instance:
