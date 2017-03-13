@@ -14,12 +14,26 @@ $ cd keras/examples
 $ floyd init keras-examples
 ```
 
+### Deep Dream
+
 To run the `deep_dream.py` example on a GPU instance:
 First download the image you want to transform the current directory.
+Then run floyd using the Keras environment.
 
 ```bash
 $ wget URL/sample.jpg
 $ floyd run --env keras --gpu python deep_dream.py sample.jpg /output/
 $ floyd logs -t <RUN_ID>
 $ floyd output <RUN_ID>
+```
+The output should contain all the deep dream generated images.
+
+### CNN on Cifar10
+
+To train a simple deep CNN on the CIFAR10 small images dataset:
+
+```bash
+$ wget URL/sample.jpg
+$ floyd run --env keras --gpu python cifar10_cnn.py
+$ floyd logs -t <RUN_ID>
 ```
